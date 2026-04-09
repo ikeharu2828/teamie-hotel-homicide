@@ -4,18 +4,18 @@ export default function Home() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
         :root {
-          --teal: #00B8A4;
-          --teal-dark: #008f80;
-          --teal-light: #e0f7f5;
-          --teal-pale: #f0fdfb;
-          --dark: #0a1f1d;
-          --text: #1a2e2b;
-          --text-mid: #4a6a65;
-          --text-light: #8aa5a0;
-          --white: #ffffff;
-          --off: #f5fcfb;
-          --border: #c8e8e4;
-        }
+  --teal: #00C4B4;
+  --teal-dark: #009688;
+  --teal-light: #e0f7f5;
+  --teal-pale: #f0fdfb;
+  --dark: #1a3a36;
+  --text: #1a2e2b;
+  --text-mid: #4a6a65;
+  --text-light: #8aa5a0;
+  --white: #ffffff;
+  --off: #f5fcfb;
+  --border: #b2dfdb;
+}
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: 'Noto Sans JP', sans-serif; color: var(--text); background: var(--white); }
         .topbar { background: var(--teal); padding: 4px 40px; display: flex; justify-content: flex-end; align-items: center; gap: 20px; }
@@ -29,7 +29,7 @@ export default function Home() {
         .nav-cta { background: var(--teal); color: white !important; padding: 8px 18px; border-radius: 4px; font-weight: 700; }
         .fv { position: relative; height: 560px; overflow: hidden; background: #0d2622; display: flex; align-items: flex-end; }
         .fv-overlay { position: absolute; inset: 0; background: linear-gradient(to right, rgba(10,31,29,0.85) 40%, rgba(10,31,29,0.3) 100%); z-index: 1; }
-        .fv-bg { position: absolute; inset: 0; background: linear-gradient(120deg, #0d2622 0%, #0f3d36 50%, #1a5248 100%); }
+       .fv-bg { position: absolute; inset: 0; background: linear-gradient(120deg, #004d45 0%, #00796b 50%, #00897b 100%); }
         .fv-content { position: relative; z-index: 2; padding: 0 40px 56px; width: 100%; }
         .fv-badge { display: inline-block; background: rgba(0,184,164,0.15); border: 1px solid rgba(0,184,164,0.5); color: #4dd9cc; font-size: 10px; letter-spacing: 0.15em; padding: 4px 14px; border-radius: 2px; margin-bottom: 18px; text-transform: uppercase; }
         .fv-title { font-family: 'Cormorant Garamond', serif; font-size: 62px; font-weight: 700; color: white; line-height: 1.05; margin-bottom: 14px; }
